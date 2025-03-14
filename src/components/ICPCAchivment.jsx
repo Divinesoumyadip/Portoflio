@@ -12,12 +12,12 @@ const ICPCAchivment = () => {
 
   const steps = [
     {
-      title: "ICPC online prelims (2024)",
-      description: "In 2024 ICPC, in prelims I achieved rank out of 5000+ teams.I Ranked Top 2.4% of teams nationwide",
+      title: "ICPC AMRITAPURI Regional contest",
+      description: "In 2024 ICPC, in prelims I achieved 79th rank out of 5000+ teams in prelims.I Ranked Top 2.4% of teams nationwide",
       image: ICPCCertificate
     },
     {
-      title: " ICPC Regional contest",
+      title: " ICPC AMRITAPURI Regional contest",
       description: "I qualified of Amritapuri and Chennai Region. And I participated solo in Amritapuri",
       image: HeroImage
     }

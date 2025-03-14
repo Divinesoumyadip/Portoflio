@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { HeroImage, HeroImage1 } from "../assets/ICPC";
 
 const ServiceCard = ({ index, title, icon, link }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -59,12 +60,12 @@ const ICPCTimelineEntry = ({ date, title, location, image, achievements = [], ta
                 <span className="text-sm">{date}</span>
               </div>
             </div>
-            {location && (
+            {/* {location && (
               <div className="mt-1 flex items-center text-gray-400">
                 <MapPinIcon className="mr-1 h-4 w-4" />
                 <span className="text-sm">{location}</span>
               </div>
-            )}
+            )} */}
             {team && (
               <div className="mt-1 flex items-center text-gray-400">
                 <UsersIcon className="mr-1 h-4 w-4" />
@@ -91,11 +92,11 @@ const ICPCTimelineEntry = ({ date, title, location, image, achievements = [], ta
                 ))}
               </div>
               <div className="mt-3 flex flex-wrap gap-2">
-                {tags.map((tag, index) => (
+                {/* {tags.map((tag, index) => (
                   <span key={index} className="rounded-full bg-blue-900/30 px-2 py-1 text-xs text-blue-300">
                     {tag}
                   </span>
-                ))}
+                ))} */}
               </div>
             </div>
           </div>
@@ -107,41 +108,38 @@ const ICPCTimelineEntry = ({ date, title, location, image, achievements = [], ta
 
 const dummyData = [
   {
-    date: "Oct 2023",
-    title: "ICPC Asia Regional",
-    location: "Seoul, South Korea",
-    team: "Team CodeCrusaders",
-    image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&auto=format&fit=crop&q=60",
+    date: "DEC 2025",
+    title: "ICPC Asia Amritapuri Regional",
+    location: "Coimbatore, India",
+    team: "Team Compiler",
+    image: HeroImage,
     achievements: [
-      { title: "7th Place Overall", description: "Solved 8 out of 12 problems, qualifying for the World Finals" },
-      { title: "Best Algorithm Award", description: "Recognized for the most efficient solution to Problem E" },
       { title: "Top University Team", description: "Highest ranking team from our university" }
     ],
     tags: ["Dynamic Programming", "Graph Algorithms", "Team Collaboration"]
   },
   {
     date: "Sep 2022",
-    title: "ICPC North America Regional",
+    title: "Became Candidate Master On Codeforces",
     location: "New York, USA",
-    team: "Team CodeWarriors",
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=60",
+    team: "Soumyadip_Das-Mahapatra",
+    image: HeroImage1,
     achievements: [
-      { title: "5th Place Overall", description: "Solved 9 out of 12 problems, qualifying for the World Finals" },
-      { title: "Best Newcomer Award", description: "Recognized as the best new team in the competition" },
-      { title: "Top Algorithm Design", description: "Awarded for the best algorithm design in Problem B" }
+     
+      { title: "Became Candidate Master", description: "Ranked top and and rated 1983 and  college rank - 1" }
     ],
     tags: ["Data Structures", "Greedy Algorithms", "Team Strategy"]
   },
   {
-    date: "Aug 2021",
-    title: "ICPC Europe Regional",
-    location: "Berlin, Germany",
-    team: "Team AlgoMasters",
-    image: "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=600&auto=format&fit=crop&q=60",
+    date: "2022-2026,
+    title: "FROM A TIER 3 COLLEGE",
+    location: "Kolkata, west Bengal",
+    team: "Competettive Programmer,Open Source Contributor",
+    image: "https://www.jisuniversity.ac.in/jisu-digital-landing/assets/img/its/abt1.jpg",
     achievements: [
-      { title: "3rd Place Overall", description: "Solved 10 out of 12 problems, securing a podium finish" },
-      { title: "Innovation Award", description: "Recognized for the most innovative solution to Problem H" },
-      { title: "Top International Team", description: "Highest ranking international team" }
+      { title: "Learned DSA & CP ", description: "Practiced 3000 + problems " },
+      { title: "Achived Cgpa", description: "Cgpa - 8.1" },
+      { title: "Done many open source contributor ", description: "jwoc,gssoc" }
     ],
     tags: ["Graph Theory", "Dynamic Programming", "Team Coordination"]
   }

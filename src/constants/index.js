@@ -49,23 +49,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "CodeForces (Candidate Master)",
+    title: "CodeForces (Candidate Master,Max Rating:- 1983)",
     icon: codeforces,
     link:"https://codeforces.com/profile/Soumyadip_Das-Mahapatra",
   },
   {
-    title: "Codechef ",
+    title: "Codechef (5 star , Max Rating :- 2038) ",
     icon: codechef,
     link:"https://www.codechef.com/users/soumyadip_dmp",
   },
 
   {
-    title: "Atcoder",
+    title: "Atcoder (Max:- 4kyu) ",
     icon: atCoder,
     link:"https://atcoder.jp/users/Code_IT_HURRRAY",
   },
   {
-    title: "Leetocode",
+    title: "Leetocode (Gurdian , Max Rating :- 2326)",
     icon: leetcode,
     link:"https://leetcode.com/u/Soumyadip_dmp/",
   },
@@ -128,8 +128,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "INDIGO SQUAD MEMBER AT IIT BOMBAY ",
-    company_name: "IIT BOMBAY",
+    title: "open source mentor JWOC ",
+    company_name: "",
     icon: indigo,
     iconBg: "#383E56",
     date: "Feb-2023",
