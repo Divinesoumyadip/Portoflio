@@ -131,7 +131,7 @@ const dummyData = [
     tags: ["Data Structures", "Greedy Algorithms", "Team Strategy"]
   },
   {
-    date: "2022-2026,
+    date: "2022-2026",
     title: "FROM A TIER 3 COLLEGE",
     location: "Kolkata, west Bengal",
     team: "Competettive Programmer,Open Source Contributor",
