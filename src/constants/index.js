@@ -34,11 +34,11 @@ export const CVDuncan = CV_Duncan;
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Coding Profile",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projects",
   },
 
   {

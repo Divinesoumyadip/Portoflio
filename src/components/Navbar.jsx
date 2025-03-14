@@ -78,7 +78,7 @@ const Navbar = () => {
                 <a href={` #${Link.id}`}> {Link.title}</a>
               </li>
             ))}
-
+{/* 
             <a
               href="https://codingguidewithsoumyadip.blogspot.com/"
               target="_blank"
@@ -91,7 +91,7 @@ const Navbar = () => {
               >
                 <span className="flex items-center"> Blogs</span>
               </button>
-            </a>
+            </a> */}
           </ul>
 
           <div className="sm:flex hidden flex-row justify-center gap-12 items-center ">
