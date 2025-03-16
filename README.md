@@ -48,13 +48,11 @@ A 3D animated landing page with smooth motion effects.
 | **TypeScript** 🌀 | ![TypeScript](https://img.shields.io/badge/TypeScript-4.7-blue?style=for-the-badge&logo=typescript&logoColor=white) |
 | **GSAP** 🌀 | ![GSAP](https://img.shields.io/badge/GSAP-Animation-green?style=for-the-badge&logo=greensock&logoColor=white) |
 
-## 🚀 Installation & Setup  
 
 
 
 
-
-#📬 Contact
+##📬 Contact
 📧 Email: your-email@example.com
 🔗 GitHub: your-github
 🔗 LinkedIn: your-linkedin
