@@ -7,4 +7,7 @@ An interactive and visually appealing portfolio website built using React, Three
 Check it out live: [soumyadip.vercel.app](https://soumyadip.vercel.app)
 
 
+A 3D animated landing page with smooth motion effects.
+
+
 ![Image](https://github.com/user-attachments/assets/61390433-dfb1-4ee9-9b23-8c1dd120ae47)
