@@ -1,6 +1,9 @@
 # Soumyadip's Portfolio 🚀
 
 Welcome to my personal portfolio website, built to showcase my skills, achievements, and projects.  
+
+An interactive and visually appealing portfolio website built using React, Three.js, and Framer Motion. This project showcases my skills, projects, and achievements in a modern and engaging way.
+
 Check it out live: [soumyadip.vercel.app](https://soumyadip.vercel.app)
 
 
