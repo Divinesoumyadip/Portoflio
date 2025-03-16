@@ -52,7 +52,7 @@ A 3D animated landing page with smooth motion effects.
 
 
 
-##📬 Contact
+## 📬 Contact
 📧 Email: your-email@example.com
 🔗 GitHub: your-github
 🔗 LinkedIn: your-linkedin
